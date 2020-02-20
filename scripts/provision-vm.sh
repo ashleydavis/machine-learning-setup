@@ -12,6 +12,9 @@ yes | pip install --upgrade pip
 
 yes | pip install tensorflow
 yes | pip install keras
+yes | pip install pymongo
 
-cd /vagrant
-jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root
+echo "source /vagrant/scripts/export.sh" >> /home/vagrant/.bashrc
+
+#cd /vagrant
+#jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root
