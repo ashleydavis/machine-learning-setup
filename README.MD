@@ -1,5 +1,7 @@
 This directory contains the configuration for a Vagrant VM that when booted can be used for data science and machine learning.
 
+This repo is superceded by [my new ML setup](https://github.com/ashleydavis/machine-learning-setup-2).
+
 Setup:
 
     Ensure you have VirtualBox and Vagrant installed.
